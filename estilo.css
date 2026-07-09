@@ -1,0 +1,13 @@
+.poke-result{
+    margin-top:20px;
+    display: flex;
+    gap:20px;
+}
+.poke{
+    width: 400px;
+    border:1px solid #000;
+    border-radius: 5px;
+    box-shadow: 2px 3px #999;
+    background-color: #ddd;
+    text-align: center;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <select id="choice">
+        <option selected default value="1">Pesquisar por nome</option>
+        <option value="2">Pesquisar por tipo</option>
+    </select>
+    <input type="text" id="poke" placeholder="Pesquise o seu pokemon">
+    <label for="tipo">Tipo de pokemon:</label>
+    <select id="poke-tipo">
+        <option selected default value="0">Selecione um Tipo!</option>
+        <!-- preencha com todos os tipos a partir de uma requisicao AJAX-->
+    </select>
+
+    <button id="buscar">Buscar</button>
+
+    <div class="poke-result">
+        Exibir aqui todos os pokemons filtrados
+        <div class="poke">
+        </div>
+
+    </div>
+</body>
+
+</html>
