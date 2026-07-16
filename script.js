@@ -93,4 +93,4 @@ btn.addEventListener("click", ()=> {
         pesquisaportipo();
     };
 })
-adicionatipos();
+adicionatipos()
